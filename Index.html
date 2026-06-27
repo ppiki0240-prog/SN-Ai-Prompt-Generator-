@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt Generator</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#f5f5f5;
+    text-align:center;
+    padding:20px;
+}
+.container{
+    max-width:500px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+input,select,textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+button{
+    width:100%;
+    padding:10px;
+    background:#2196f3;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover{
+    background:#0b7dda;
+}
+textarea{
+    height:150px;
+}
+h1{
+    font-size:24px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>🤖 AI Prompt Generator</h1>
+
+<input id="subject" placeholder="Subject (Boy, Car, Cat...)">
+<input id="style" placeholder="Style (Realistic, Cinematic...)">
+<input id="background" placeholder="Background">
+<input id="lighting" placeholder="Lighting">
+
+<select id="quality">
+    <option>4K</option>
+    <option>8K</option>
+</select>
+
+<button onclick="generatePrompt()">Generate Prompt</button>
+
+<textarea id="result" readonly></textarea>
+
+<button onclick="copyPrompt()">📋 Copy Prompt</button>
+
+</div>
+
+<script>
+function generatePrompt(){
+    let subject=document.getElementById("subject").value;
+    let style=document.getElementById("style").value;
+    let background=document.getElementById("background").value;
+    let lighting=document.getElementById("lighting").value;
+    let quality=document.getElementById("quality").value;
+
+    if(subject==""){
+        alert("Please enter subject");
+        return;
+    }
+
+    let prompt =
+    subject + ", " +
+    style + " style, " +
+    background + ", " +
+    lighting + " lighting, ultra realistic, " +
+    quality + ", cinematic, highly detailed";
+
+    document.getElementById("result").value = prompt;
+}
+
+function copyPrompt(){
+    let text=document.getElementById("result");
+    text.select();
+    document.execCommand("copy");
+    alert("Copied!");
+}
+</script><html>
+
+<head>
+    <title>AI Prompt Generator</title>
+
+    <!-- CSS yahan lagta hai -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- tumhara page content -->
+
+    <!-- JS yahan lagta hai -->
+    <script src="script.js"></script>
+</body>
+
+</html><h1>✨ Shahab&Najam AI Prompt Generator ✨</<script async
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
+crossorigin="anonymous"></script><ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-XXXXXXXXXXXX"
+data-ad-slot="1234567890"
+data-ad-format="auto"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=YOUR_ID"
+crossorigin="anonymous"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6424852568108468"
+     crossorigin="anonymous"></script>
